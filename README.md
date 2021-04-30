@@ -1,7 +1,7 @@
 # Kickstarting with Excel
 
 ## **Overview of Project**
-Performing analysis on Kickstarter data to uncover trends
+Performing analysis on Kickstarter data to uncover trends.
 ### Purpose
 Utilize a large set of data for global Kickstarter programs to help inform Louise for her upcoming Kickstarter project. Specifically, Analyzing global theater outcomes and the relation of their launch dates to their success. In addition, to analyzing global plays and the relation of their funding goals to the outcome of the projects. 
 ## **Analysis and Challenges** 
@@ -10,7 +10,7 @@ Analysis of theater outcomes based on launch date looked at specifically the dat
 ![image_name](path/to/image_name.png)
 ### Analysis of Outcomes Based on Goals
 Analysis of outcomes based on goals looked at specifically the data for Kickstarters subparent category on plays. From there the data was broken out into different goal ranges to highlight how my plays were successful, failed or were canceled within those specific goal ranges. The chart indicates how many plays were successful, failed or were canceled based on their goal amount. 
-![image_name](path/to/image_name.png)
+![Outcomes_vs_Goals](path/to/Outcomes_vs_Goals.png)
 ### Challenges and Difficulties Encountered 
 * A challenge that arose in the outcomes based on goals analysis was figuring out how to create the goal ranges for the COUNTIFS function. I knew that the goal of this function was only to include the range of the goals given in column A. At first, I used greater than symbol and the highest value in column A. When I did that, I was getting all of the goal inputs from 0 to my max number. This was solved by including both ends of the goal range in column A within the COUNTIFS statement in excel. 
 * For example, for the range of 1,000 to 4,999, I included both >=1,000 and <=4,999 in the COUNTIFS function.
