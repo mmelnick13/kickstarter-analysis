@@ -7,7 +7,8 @@ Utilize a large set of data for global Kickstarter programs to help inform Louis
 ## **Analysis and Challenges** 
 ### Analysis of Theater Outcomes Based on Launch Date
 Analysis of theater outcomes based on launch date looked at specifically the data around the Kickstarter parent category Theaters. From there the data was broken out to analyze the outcomes of Theater productions for multiple years on a monthly cadence. The graph illustrates how many Theater productions were successful, failed or were canceled by month.  
-![image_name](path/to/image_name.png)
+![Theater_Outcomes_vs_Launch](kickstarter-analysis/Theater_Outcomes_vs_Launch.png)
+
 ### Analysis of Outcomes Based on Goals
 Analysis of outcomes based on goals looked at specifically the data for Kickstarters subparent category on plays. From there the data was broken out into different goal ranges to highlight how my plays were successful, failed or were canceled within those specific goal ranges. The chart indicates how many plays were successful, failed or were canceled based on their goal amount. 
 ![Outcomes_vs_Goals](path/to/Outcomes_vs_Goals.png)
